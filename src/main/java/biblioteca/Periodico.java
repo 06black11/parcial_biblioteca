@@ -2,16 +2,16 @@ package biblioteca;
 
 public class Periodico extends Recurso {
     private String editorial;
-    private int anio;
+    private Integer anio;
 
-    public Periodico(Integer id, String nombre, String editorial, int anio) {
+    public Periodico(Integer id, String nombre, String editorial, Integer anio) {
         super(id, nombre);
         this.editorial = editorial;
         this.anio = anio;
     }
 
     public String getEditorial() { return editorial; }
-    public int getAnio() { return anio; }
+    public Integer getAnio() { return anio; }
 
     @Override
     public String toString() {
