@@ -1,11 +1,11 @@
-package biblioteca;
+rpackage biblioteca;
 
 public class Computador extends Recurso {
     private String marca;
     private String modelo;
     private TipoComputador tipo;
 
-    public Computador(int id, String nombre, String marca, String modelo, TipoComputador tipo) {
+    public Computador(Integer id, String nombre, String marca, String modelo, TipoComputador tipo) {
         super(id, nombre);
         this.marca = marca;
         this.modelo = modelo;
