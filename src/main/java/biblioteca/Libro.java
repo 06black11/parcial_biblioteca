@@ -2,20 +2,20 @@ package biblioteca;
 
 public class Libro extends Recurso {
     private String autor;
-    private int ano;
+    private Integer anio;
     private String isbn;
 
-    public Libro(Integer id, String nombre,  String autor, int ano, String isbn) {
+    public Libro(Integer id, String nombre,  String autor, Integer anio, String isbn) {
         super(id, nombre);
      
         this.autor = autor;
-        this.ano = ano;
+        this.anio = anio;
         this.isbn = isbn;
     }
 
     
     public String getAutor() { return autor; }
-    public int getAno() { return ano; }
+    public Integer getAnio() { return anio; }
     public String getIsbn() { return isbn; }
 
     @Override
@@ -23,7 +23,7 @@ public class Libro extends Recurso {
         return "Libro [id=" + getId() +
                 ", nombre=" + getNombre() +
                 ", autor=" + autor +
-                ", año=" + ano +
+                ", año=" + anio +
                 ", isbn=" + isbn +
                 ", fechaRegistro=" + getFechaRegistro() + "]";
     }
