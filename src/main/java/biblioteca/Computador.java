@@ -1,4 +1,4 @@
-rpackage biblioteca;
+package co.edu.itc.programacion.biblioteca.modelo;
 
 public class Computador extends Recurso {
     private String marca;
