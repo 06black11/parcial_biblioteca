@@ -1,4 +1,4 @@
-package biblioteca;
+package co.edu.itc.programacion.biblioteca.modelo;
 
 public class Libro extends Recurso {
     private String autor;
